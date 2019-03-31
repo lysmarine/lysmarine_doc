@@ -1,10 +1,10 @@
-Lysmarine use provide the x11vnc server to allow desktop sharing of the pi user.
+Lysmarine provide the x11vnc server to allow desktop sharing of the pi user.
 
 The service is disabled by default for security reason. Prior to enable it you should :
 
  - set a VNC password with the command `vncpasswd`.
 
- To start for the service only for the current runtime:
+ To start the service only for the current runtime:
  ```
  sudo systemctl start x11vnc.service
  ```
@@ -14,7 +14,7 @@ The service is disabled by default for security reason. Prior to enable it you s
  sudo systemctl enable x11vnc.service
  ```
 
-To prevent disable the automatic launch at boot :
+To disable the automatic launch at boot :
 
 ```
 sudo systemctl stop x11vnc.service
