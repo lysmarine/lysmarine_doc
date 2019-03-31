@@ -37,5 +37,7 @@ The goal is to provide a stable, low-cost navigation computer for boats.
 
 [ SSH ](doc/userdoc/ssh.md)
 
+[ RDP ](doc/userdoc/rdp.md)
+
 ## Data management
 [ Charts ](doc/userdoc/charts.md)
