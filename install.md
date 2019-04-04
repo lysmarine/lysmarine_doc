@@ -1,7 +1,9 @@
 # Install LysMarine
 
 ### 1) Download the latest image file
- [https://archive.org/download/lysmarine-0.8.0.img/lysmarine-0.8.0.img.zip](https://archive.org/download/lysmarine-0.8.0.img/lysmarine-0.8.0.img.zip)
+ [https://archive.org/download/lysmarine-0.8.1.img/lysmarine-0.8.1.img.zip](https://archive.org/download/lysmarine-0.8.1.img/lysmarine-0.8.1.img.zip)
+(.zip, .tag.gz, and .lzma images are also available at (https://archive.org/details/lysmarine-0.8.1.img)[https://archive.org/details/lysmarine-0.8.1.img])
+
 
 ### 2) Extract the image file from the zip archive
 Find the downloaded archive — by default, it should be in your Downloads folder.<br>
@@ -9,7 +11,7 @@ Double-click on it to extract the files, and keep the resulting Explorer/Finder 
 
 Linux CLI:
  ```
- unzip lysmarine-0.8.0.img.zip
+ unzip lysmarine-0.8.1.img.zip
  ```
 
 ### 3) Copy the lysmarine.img file on the microSd card
@@ -17,7 +19,7 @@ Linux CLI:
 
 Linux CLI (_be careful with this one_):
  ```
- sudo dd if=./lysmarine-0.8.0.img  of=/dev/mmcblk0
+ sudo dd if=./lysmarine-0.8.1.img  of=/dev/mmcblk0
  ```
 
 ### 4) Enjoy
