@@ -22,7 +22,6 @@ The goal is to provide a stable, low-cost navigation computer for boats.
 
   [Frist boot](doc/userdoc/firstboot.md)
 
-
 ## Instruments connection
  > The raspberry provide multiple ways to connect and interact with instruments and sensors.`Signalk` is the central point where all the data should go in and out.
 
@@ -30,6 +29,9 @@ The goal is to provide a stable, low-cost navigation computer for boats.
 
 [ signalk to opencpn ](doc/userdoc/signalktoopencpn.md)
 
+[ pypilot ](#) **todo** _help is welcome_
+[ kplex ](#) **todo** _help is welcome_
+[ xygrib / Grib Files ](#) **todo** _help is welcome_
 
 
 ## Remote connection
