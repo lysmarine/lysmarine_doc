@@ -2,9 +2,9 @@
 
 
 ### 1) Download the latest image file
-   [https://archive.org/download/lysmarine-0.8.1.img/lysmarine-0.8.1.img.zip](https://archive.org/download/lysmarine-0.8.1.img/lysmarine-0.8.1.img.zip)
+   [lysmarineos.com/archives/V0.8.2-lysmarine.img.zip](lysmarineos.com/archives/V0.8.2-lysmarine.img.zip)
 
-   `.zip, .tag.gz, and .lzma` images are also available at [https://archive.org/details/lysmarine-0.8.1.img](https://archive.org/details/lysmarine-0.8.1.img)
+   `.zip, .tag.gz, and .lzma` images are also available at [lysmarineos.com/archives/](lysmarineos.com/archives/)
 
 
 ### 2) Extract the image file from the zip archive
