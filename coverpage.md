@@ -1,6 +1,6 @@
 
 # Lysmarine
 ## A libre navigation OS for Raspberrypi
-Lysmarine is build with the stability of the raspbian operating system to provide an easy to use, stable, low-cost navigation computer for boats.
+Lysmarine is a navigation computer for boats. It's designed for the raspberrypi and provide a stable, low-cost and expandable tool.
 
- [Get started](install.md)
+ [Download & install](install.md) [Documentation](README.md)

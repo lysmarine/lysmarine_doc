@@ -25,6 +25,10 @@ The goal is to provide a stable, low-cost navigation computer for boats.
 ## Instruments connection
  > The raspberry provide multiple ways to connect and interact with instruments and sensors.`Signalk` is the central point where all the data should go in and out.
 
+[Minimal Hardware](doc/userdoc/hardware/minimal_hardware.md)
+
+[Documented Hardware](doc/userdoc/hardware/documented_hardware.md)
+
 [ USB gps dongles ](doc/userdoc/usbgps.md)
 
 [ signalk to opencpn ](doc/userdoc/signalktoopencpn.md)

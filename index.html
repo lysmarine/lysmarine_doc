@@ -21,11 +21,15 @@
 		background-size: cover !important;
 	}
 
+	#footer{
+		float:right
+	}
 	</style>
 </head>
 
 <body>
 	<div id="app"></div>
+	<div id="footer">	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>&nbsp;&nbsp;&nbsp;</div>
 
   <script>
 		window.$docsify = {
@@ -34,10 +38,13 @@
 			coverpage  : 'coverpage.md',
 			homepage   : 'README.md',
 			auto2top   : true,
-			maxLevel   : 3,
-			subMaxLevel: 3,
+			maxLevel   : 1,
+			subMaxLevel: 6,
 			themeable : {
-			}
+			},
+
+
+
 	};
 	</script>
 
@@ -45,6 +52,7 @@
 	<script src="docsify-themeable"></script>
 	<script src="search.js"></script>
 	<script src="docsify-pagination.min.js"></script>
+
 </body>
 
 </html>
