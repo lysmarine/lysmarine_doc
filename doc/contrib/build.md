@@ -1,7 +1,7 @@
 
 # lysmarine-gen (the build script for the lysmarine image)
 ```
-git clone https://gitlab.com/lysmarine/lysmarine-gen.git
+git clone https://github.com/lysmarine/lysmarine_gen.git
 cd lysmarine-gen
 sudo CLEAN=1 ./build.sh
 ```
@@ -14,7 +14,7 @@ Development should be done in the `develop` branch
 Change the branch with `git checkout develop`
 
 
-New version [Release procedure](doc/procedures/release_procedure.md)
+
 
 
 # Build Lysmarine (The documentation website)
@@ -31,7 +31,7 @@ To use it locally, First install docsify package from npm:
 
 Then, download lysmarine documentation.
 ```
-https://gitlab.com/lysmarine/lysmarine.git
+https://github.com/lysmarine/lysmarine_doc.git
 cd lysmarine
 ```
 

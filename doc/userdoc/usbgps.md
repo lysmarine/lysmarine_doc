@@ -1,7 +1,7 @@
 
 ## USB GPS
 The list of supported gps dongle is based on the devices supported by the gpsd project.
-5 path are pre-confured to receive GPS. More can be added manually if needed. If you need documentation for this plz open an issue at http://gitlab.com/lysmarine/lysmarine/issues/
+5 path are pre-confured to receive GPS. More can be added manually if needed. If you need documentation for this plz open an issue at http://github.com/lysmarine/lysmarine_gen/issues/
 
 ### The path
 ```
@@ -33,4 +33,4 @@ physical GPS ===> physical USB port ===> udev rules ===> manage_gps.sh ===> gpsd
  - Restart signalk.    
 
  If it still don't work open an issue at :
-  http://gitlab.com/lysmarine/lysmarine/issues/
+  http://github.com/lysmarine/lysmarine_gen/issues/

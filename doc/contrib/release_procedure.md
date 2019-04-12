@@ -14,6 +14,8 @@
  - Build.
 
 ## Create the archive files
+Once build the image file can be found in the `./deploy/` folder
+
 __todo__
 
 ## Upload them

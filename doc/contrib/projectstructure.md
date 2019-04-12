@@ -1,25 +1,35 @@
 # Project structure
 Lysmarine is made of different repositories. Some are original content others are just forks of other projects.  
 
-## Lysmarine
-> [lysmarine](https://gitlab.com/lysmarine/lysmarine) is the main repository.
+> [https://lysmarineos.com](https://lysmarineos.com) is the website of the project.
 
-It contain:
+> [https://lysmarineos.com](https://github.com/lysmarine) is the collaboration platform and issue tracker.
+
+<br/>
+
+# Repositories
+## Lysmarine_doc
+
+> [https://github.com/lysmarine_doc](https://github.com/lysmarine_doc) Is the documentation and website repo.
+
+Contain:
 - Project website.
 - Documentation.
-- Issue tracker
+- Issue tracker.
 
 
 
-## lysmarine-gen
- > [lysmarine-gen](https://gitlab.com/lysmarine/lysmarine-gen) is the tool used to build lysmarine. *(This is where the magic append)*
+## lysmarine_gen
+
+ > [lysmarine-gen](https://gitlab.com/lysmarine/lysmarine_gen) is the tool used to build lysmarine. *(This is where the magic append)*
 
   Lysmarine-gen is a fork of the [pi-gen](https://github.com/RPi-Distro/pi-gen) project used to build the official [Rasbian](https://www.raspberrypi.org/downloads/raspbian/) image. Original build stages have been striped and replaced to create the lysmarine OS with all the pre-installed tools and configurations.
-
+- Issue tracker.
 
 
 
 ## Tuktuk-chart-plotter.
+
 > Tuktuk is a chart plotter for Signal K with the support for raster chart providers.
 
   Lysmarine use a forked version of tuktuk.
@@ -34,6 +44,7 @@ The fork add few features and pre-configured settings for the need of lysmarine.
 
 
 ## Fbpanel
+
 > fbpanel is a lightweight desktop panel. It works with any NETWM compliant window manager.
 
 Lysmarine use a forked version of fbpanel.
@@ -47,6 +58,7 @@ The fork add minors edits for the need of lysmarine.
 
 
 ## SpeedSample
+
 > SpeedSample is a small tool for recording average speed over a minute.
 
    - The original project is available here: [SpeedSample](https://github.com/fredericGuilbault/SpeedSample).

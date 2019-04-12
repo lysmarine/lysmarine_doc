@@ -1,12 +1,12 @@
 # Contribution guidelines
-Lysmarine have a github account for a  better reach out, but the actual work append on gitlab at
-[https://gitlab.com/lysmarine](https://gitlab.com/lysmarine).
+Lysmarine contribution platform is github,
+[https://github.com/lysmarine](https://github.com/lysmarine).
 
 
 ## Versioning & Branch
 Pre-publishing work have been made in the `lysmarine` branch of `lysmarine-gen`
 
-Now, Since version `0.8` workflow goes like this:  .
+Now, Since version `>0.8.0` workflow goes like this:  .
  - Development for the next version append on the `develop` branch.
  - Hot fixes append on a branch named `hotfix/[version number]`, then merged to `master` when ready.
  - Commits from upstream (pi-gen) are merged on the `develop` branch only.
@@ -15,9 +15,9 @@ Now, Since version `0.8` workflow goes like this:  .
 
 
 ## Issues
-If you work on lysmarine, you are invited to create a Issue to share your intent at [lysmarine-gen/issue](https://gitlab.com/lysmarine/lysmarine-gen/issue) .So others will see what you are working on.  
+If you work on lysmarine, you are invited to create a Issue to share your intent at [lysmarine_gen/issue](https://github.com/lysmarine/lysmarine_gen/issue) .So others will see what you are working on.  
 
-If you have found an issue or just something that don't feel right. Feel free to open an issue at [lysmarine/issue](https://gitlab.com/lysmarine/lysmarine/issue).
+If you have found an issue or just something that don't feel right. Feel free to open an issue at [lysmarine_gen/issue](https://github.com/lysmarine/lysmarine_gen/issue).
 
 
 ## Git

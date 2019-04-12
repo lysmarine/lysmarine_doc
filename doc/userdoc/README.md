@@ -1,26 +1,13 @@
 
-# What is LysMarine
-LysMarine a linuxOS based on the raspbian core designed to run on a raspberry.
-
-The goal is to provide a stable, low-cost navigation computer for boats.
+# Documentation and tutorials
 
 
-### The featured applications are
- - Signalk as communication protocol server
- - Opencpn and tuktuk as chart plotter
- - xygrips as weather app.
- - speedSample as a speed sample tool for trimming.
-
----
-<br>
-<br>
-<br>
-
-# Documentation
 
 ## Basic
 
   [Frist boot](doc/userdoc/firstboot.md)
+
+
 
 ## Instruments connection
  > The raspberry provide multiple ways to connect and interact with instruments and sensors.`Signalk` is the central point where all the data should go in and out.
@@ -33,17 +20,34 @@ The goal is to provide a stable, low-cost navigation computer for boats.
 
 [ signalk to opencpn ](doc/userdoc/signalktoopencpn.md)
 
-[ pypilot ](#) **todo** _help is welcome_
-[ kplex ](#) **todo** _help is welcome_
-[ xygrib / Grib Files ](#) **todo** _help is welcome_
+[ pypilot ](#) ``**todo**`` _help is welcome_ <br/>
+
+[ kplex ](#) ``**todo**`` _help is welcome_ <br/>
+
+[ xygrib ](#) ``**todo**`` _help is welcome_ <br/>
+
 
 
 ## Remote connection
+
 [ VNC ](doc/userdoc/vnc.md)
 
 [ SSH ](doc/userdoc/ssh.md)
 
 [ RDP ](doc/userdoc/rdp.md)
 
+
+
 ## Data management
+
 [ Charts ](doc/userdoc/charts.md)
+
+[ Gribs files ](#) ``**todo**`` _help is welcome_ <br/>
+
+[ Logs ](#) ``**todo**`` _help is welcome_ <br/>
+
+## Hardware
+
+[ Minimal hardware ](doc/userdoc/hardware/minimal_hardware.md) ``**todo**`` _help is welcome_ <br/>
+
+[ Documented hardware ](doc/userdoc/hardware/documented_hardware.md) ``**todo**`` _help is welcome_ <br/>

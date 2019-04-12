@@ -26,7 +26,7 @@ Opencpn uses zooms between 1:800 to 1:12300000 Witch is equivalent to z5 @ z20 i
 ### Opencpn
 
 Opencpn support a wild range of charts.
-You can take a look at the list on opencpn website [here](https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:opencpn_user_manual:charts:chart_formats)
+You can take a look at the list on opencpn website `https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:opencpn_user_manual:charts:chart_formats`
 
 _NOTE: opencpn 5.0.0 have added the support for tiling formats.
 But due to the low capacity of the raspberry. Sadly, It often crash ._

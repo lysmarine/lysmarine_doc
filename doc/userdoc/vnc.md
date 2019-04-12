@@ -6,18 +6,18 @@ The service is disabled by default for security reason. Prior to enable it you s
 
  To start the service only for the current runtime:
  ```
- sudo systemctl start x11vnc.service
+ sudo systemctl start vnc.service
  ```
 
  If you want VNC to start automatically at boot:
  ```
- sudo systemctl enable x11vnc.service
+ sudo systemctl enable vnc.service
  ```
 
 To disable the automatic launch at boot :
 
 ```
-sudo systemctl stop x11vnc.service
+sudo systemctl stop vnc.service
 ```
 
 By default, vnc is listening on the port **5900**. You can find your local IP with the command `ip addr`

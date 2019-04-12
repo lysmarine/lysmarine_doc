@@ -4,9 +4,8 @@
 <img style="float: right;width:33%" src="img/56196650_864487037226158_2555303931060158464_n.png" >
 <img style="float: right;width:33%" src="img/55949750_864487103892818_7811739672480055296_n.png" >
 
+<div style="clear:both"></div>
 
-<br>
-<br>
 
 # What is Lysmarine.
 Lismarine is an operating system designed to be used as a navigation computer inside boats.
@@ -20,24 +19,24 @@ What you will need will vary a lot depending your inputs and outputs and mainly 
 The minimum kit can be found on the [Minimal Hardware](doc/userdoc/hardware/minimal_hardware.md)
 
 
-# Get Starded
 
-&nbsp; &nbsp; &nbsp; &nbsp; [ Download and Install ](../install.md)
+# Get Starded
+&nbsp; &nbsp; &nbsp; &nbsp; [ Download and Install ](INSTALL.md)
 
 &nbsp; &nbsp; &nbsp; &nbsp; [ First run, What to do ](doc/userdoc/firstboot.md)
 
-&nbsp; &nbsp; &nbsp; &nbsp; [ User documentation ](doc/userdoc/README.md)
 
 
+# Documentation
+&nbsp; &nbsp; &nbsp; &nbsp; [ For project Contributors ](doc/contrib/README.md)
 
-# Developers
-&nbsp; &nbsp; &nbsp; &nbsp; [ Project structure and contribution guidelines ](doc/contrib/README.md)
-
-&nbsp; &nbsp; &nbsp; &nbsp; [ Build and Debug procedures ](doc/procedures/README.md)
+&nbsp; &nbsp; &nbsp; &nbsp; [ For users and hackers ](doc/userdoc/README.md)
 
 
 
 # Contact
+&nbsp; &nbsp; &nbsp; &nbsp;[Get in touch with the community](https://www.facebook.com/groups/1072445939633174/)
+
 &nbsp; &nbsp; &nbsp; &nbsp;[Bugs and Issues](https://gitlab.com/lysmarine/lysmarine/issues)
 
 &nbsp; &nbsp; &nbsp; &nbsp;[Facebook](https://www.facebook.com/lysmarineOS)
