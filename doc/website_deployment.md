@@ -1,3 +1,7 @@
+Install website
+sudo npm install -g docsify
+sudo docsify serve 
+
 
 # lysmarine-gen (the build script for the lysmarine image)
 ```
@@ -41,3 +45,4 @@ To serve the documentation site:
   docsify serve ./
 ```
 Now you should be able to access documentation on `http://localhost:3000`
+

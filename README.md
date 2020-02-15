@@ -1,4 +1,8 @@
 
+# Lysmarine
+
+## A stable and coherent operating system for DIY chart plotters.
+
 
 <img style="float: right;width:33%" src="img/56685673_864487050559490_2388214322967871488_n.png" >
 <img style="float: right;width:33%" src="img/56196650_864487037226158_2555303931060158464_n.png" >
@@ -7,36 +11,40 @@
 <div style="clear:both"></div>
 
 
-# What is Lysmarine.
-Lismarine is an operating system designed to be used as a navigation computer inside boats.
-The software is build with pi-gen so it's use the same base as raspbian and it's compiled for raspberrypi.
-It include software to read charts, Gribs, go on the internet and manage different inputs and outputs such as autopilots, GPS, AIS, depth sensors ....
+# Feature
+
+ * OpenCPN
+ * Freeboard-sk
+ * XyGrib
+ * Pypilot
+ * SignalK
+ * kplex
+ * gpsd
+ * vnc
+
 
 # Hardware requirements.
-In order to make the magic of Lysmarine append, you will need some physical devices to run your software on.
-What you will need will vary a lot depending your inputs and outputs and mainly your geek level.
 
-The minimum kit can be found on the [Minimal Hardware](doc/userdoc/hardware/minimal_hardware.md)
+At this time, The tested SBCs are :
 
+* RaspberryPi 3
+* PineA64 LTS (based on the Pine64so kernel)
+* virtualbox disk image
+
+Others SBC related suported arch might work out of the box but haven't been tested, others might need tweeks to build correctly.
+
+If you wish to have your favorite SBC supported and have some time to do testing ...or have a spare to giveaway. Open a github issue or contact me on facebook https://fb.me.com/lysmarineOS/
 
 
 # Get Starded
-&nbsp; &nbsp; &nbsp; &nbsp; [ Download and Install ](INSTALL.md)
+&nbsp; &nbsp; &nbsp; &nbsp; [ Download and Install ](doc/INSTALL.md)
 
-&nbsp; &nbsp; &nbsp; &nbsp; [ First run, What to do ](doc/userdoc/firstboot.md)
-
-
-
-# Documentation
-&nbsp; &nbsp; &nbsp; &nbsp; [ For project Contributors ](doc/contrib/README.md)
-
-&nbsp; &nbsp; &nbsp; &nbsp; [ For users and hackers ](doc/userdoc/README.md)
-
+&nbsp; &nbsp; &nbsp; &nbsp; [ Documentation ](doc/README.md)
 
 
 # Contact
 &nbsp; &nbsp; &nbsp; &nbsp;[Get in touch with the community](https://www.facebook.com/groups/1072445939633174/)
 
-&nbsp; &nbsp; &nbsp; &nbsp;[Bugs and Issues](https://gitlab.com/lysmarine/lysmarine/issues)
+&nbsp; &nbsp; &nbsp; &nbsp;[Bugs and Issues](https://github.com/lysmarine/lysmarine_gen/issues)
 
 &nbsp; &nbsp; &nbsp; &nbsp;[Facebook](https://www.facebook.com/lysmarineOS)
