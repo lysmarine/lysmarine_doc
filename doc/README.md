@@ -1,6 +1,6 @@
 # Documentation
 
-&nbsp; &nbsp; &nbsp; &nbsp; [ Requirements ](doc/hardware.md)
+&nbsp; &nbsp; &nbsp; &nbsp; [ Hardware ](doc/hardware.md)
 
 &nbsp; &nbsp; &nbsp; &nbsp; [ Getting started ](doc/INSTALL.md)
 
@@ -34,7 +34,6 @@
 &nbsp; &nbsp; &nbsp; &nbsp; [Facebook user goup](https://www.facebook.com/groups/1072445939633174/)
 
 &nbsp; &nbsp; &nbsp; &nbsp; [Bugs and Issues](https://github.com/lysmarine/lysmarine_gen/issues)
-
 
 
 # Changelog

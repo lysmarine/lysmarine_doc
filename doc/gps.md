@@ -1,7 +1,6 @@
 
 ## USB GPS
 The list of supported gps dongle is based on the devices supported by the gpsd project.
-5 path are pre-confured to receive GPS. More can be added manually if needed. If you need documentation for this plz open an issue at http://github.com/lysmarine/lysmarine_gen/issues/
 
 ### The path
 ```
@@ -26,11 +25,17 @@ physical GPS ===> physical USB port ===> udev rules ===> manage_gps.sh ===> gpsd
 ### Debugging
   Boot without having the device connected then plug it and fallow the debug chain bellow
 
- - If `ls /dev/ttyLYS*` Output a file. this mean that udev have reconised the device you plugged as a USB GPS.
- - In `tail /var/log/syslog` you should see a row like this one `This USB device is known as a GPS and will be connected to gpsd on port 2947?`. This would mean that `manage_gps.sh` have tried to start gpsd.
- - Try `systemctl status lysgpsd@0.service` and/or `ps aux | grep gpsd` to validate that gpsd daemon is running.
- - Check with `gpsmon 127.0.0.1:29470` that you receive NMEA data and have your position.
- - Restart signalk.    
+ - If `ls /dev/ttyLYS*` Output a file. This mean that udev have reconised the device you plugged in the port as a USB GPS.
+ - In `tail /var/log/syslog` you should see a row like this one `This USB device is known as a GPS and will be connected to gpsd on port 2947?`. This will mean that `manage_gps.sh` have tried to start gpsd.
+ - Then try `systemctl status lysgpsd@0.service` and/or `ps aux | grep gpsd` to validate that gpsd daemon truely running.
+ - Check with `gpsmon 127.0.0.1:29470` that you receive NMEA data and have your position.(you might have to install gpsmon: `sudo apt install gpsd-clients`)
+ - Finally force signalk to relaod configuration with `systemctl restart signalk`.    
 
  If it still don't work open an issue at :
   http://github.com/lysmarine/lysmarine_gen/issues/
+
+### Debugging (SK to Ocpn)
+
+ - Make sure signalk-to-nmea0183 plugin is enabled in the signalk admin panel.
+ - Use `telnet localhost 10110` to validate that signalk emit nmea0183 sentences.
+ - Check opencpn configuration.

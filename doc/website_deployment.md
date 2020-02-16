@@ -12,7 +12,6 @@ sudo CLEAN=1 ./build.sh
 
 Then you can find the image file at location `work/xxx-lysmarine/export-noobs/`
 
-
 Development should be done in the `develop` branch
 
 Change the branch with `git checkout develop`

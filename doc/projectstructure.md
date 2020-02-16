@@ -1,5 +1,5 @@
 # Project structure
-Lysmarine is made of different repositories. Some are original content others are just forks of other projects.  
+Lysmarine is made of different repositories. Some are original content others are just forks.  
 
 > [https://lysmarineos.com](https://lysmarineos.com) is the website of the project.
 
@@ -12,46 +12,24 @@ Lysmarine is made of different repositories. Some are original content others ar
 
 > [https://github.com/lysmarine_doc](https://github.com/lysmarine_doc) Is the documentation and website repo.
 
-Contain:
-- Project website.
-- Documentation.
-- Issue tracker.
-
-
+It contain the website and documentation files. 
 
 ## lysmarine_gen
 
  > [lysmarine-gen](https://gitlab.com/lysmarine/lysmarine_gen) is the tool used to build lysmarine. *(This is where the magic append)*
 
-  Lysmarine-gen is a fork of the [pi-gen](https://github.com/RPi-Distro/pi-gen) project used to build the official [Rasbian](https://www.raspberrypi.org/downloads/raspbian/) image. Original build stages have been striped and replaced to create the lysmarine OS with all the pre-installed tools and configurations.
-- Issue tracker.
-
-
-
-## Tuktuk-chart-plotter.
-
-> Tuktuk is a chart plotter for Signal K with the support for raster chart providers.
-
-  Lysmarine use a forked version of tuktuk.
-
-   - The original project is available here: [tuktuk-chart-plotter](https://github.com/vokkim/tuktuk-chart-plotter).
-
-   - The lysmarine fork can be found here: [tuktuk-chart-plotter](https://gitlab.com/FredericGuilbault/tuktuk-chart-plotter)
-
-The fork add few features and pre-configured settings for the need of lysmarine.
-
-
+This is also where issues should be submited. 
 
 
 ## Fbpanel
 
 > fbpanel is a lightweight desktop panel. It works with any NETWM compliant window manager.
 
-Lysmarine use a forked version of fbpanel.
+Sadly fbpanel is a dead project. Some people suLysmarine use a forked version of fbpanel.
 
  - The original project is available here:[fbpanel](https://aanatoly.github.io/fbpanel/).
 
- - The lysmarine fork can be found here : [fbpanel](https://gitlab.com/FredericGuilbault/fbpanel)
+ - The lysmarine fork can be found here : [fbpanel](https://gitlab.com/lysmarine/fbpanel)
 
 The fork add minors edits for the need of lysmarine.
 

@@ -1,9 +1,10 @@
-Lysmarine provide the x11vnc server to allow desktop sharing of the pi user.
+# VNC 
+Lysmarine provide the `x11vnc` server to allow desktop sharing of the `user` user.
 
-The service is disabled by default for security reason. Prior to enable it you should :
+The default VNC password is `changeme`. Plz set a new one with the command `vncpasswd`.
 
- - set a VNC password with the command `vncpasswd`.
 
+# Enabling / Disabling
  To start the service only for the current runtime:
  ```
  sudo systemctl start vnc.service
@@ -20,4 +21,9 @@ To disable the automatic launch at boot :
 sudo systemctl stop vnc.service
 ```
 
-By default, vnc is listening on the port **5900**. You can find your local IP with the command `ip addr`
+# Configuration
+The default domain name of the chartplotter is `http://lysmarine.local`
+
+Alternatively, You can find your local IP with the command `ip addr`
+
+By default, vnc is listening on the port **5900**.

@@ -3,27 +3,28 @@
 By default, lysmarine time is set on GMT.
 To choose your location, navigate to `/usr/share/zoneinfo/`
 Find the file corresponding to your location (`America/Montreal` in this example)
-Then copy it to `/etc/localtime`  
+Then copy it into `/etc/localtime`  folder.
 ```
 sudo cp /usr/share/zoneinfo/America/Montreal /etc/localtime
 ```
 
 # Passwords
-> lysmarine come with default password. You are strongly advised to change them.
+Default passwords are:
+> User:`user`<br> 
+> Password:`changeme` 
 
- - Change the default user (pi) password with the `passwd` command.
- - Il you plan to use VNC, change the default password with the command `vncpasswd`.
- - Create signalk a administrative account: Go to Menu > Signal K   In the browser, Press Login button upper right.
+> User:`root`<br> 
+> Password:`changeme` 
+
+As their name says, you are strongly advised to change them, 
+ - Change user password with the command :  `passwd`
+ - Change root password with the command :  `sudo passwd root`
+ - Change VNC password with the command  :  `vncpasswd`
+
+Signalk don't have any accound made by default, so plz create one before someone malicious do it :
+`Go to Menu` > `System` > `SignalK`  Press Login button upper right and choose your username & password. 
 
 
 ### Aditional configurations
- - There is no root password set by default. You are expected to do everything through sudo.
-   But if you need one, you can set it with `sudo passwd root`
+> __TODO:__ systemd services
 
- - [Enable SSH](doc/userdoc/vnc.md)
- - [Enable VNC](doc/userdoc/ssh.md)
-
-
-
-Firewall ?   **__TODO__**
-Sudo with no password ? **__TODO__** conflicting with openplotter
