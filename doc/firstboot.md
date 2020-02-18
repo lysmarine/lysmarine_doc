@@ -24,6 +24,7 @@ As their name says, you are strongly advised to change them,
 Signalk don't have any accound made by default, so plz create one before someone malicious do it :
 `Go to Menu` > `System` > `SignalK`  Press Login button upper right and choose your username & password. 
 
+Wifi access point, In the file `etc/create_ap.conf` look for the line `PASSPHRASE=changeme` and set your password. 
 
 ### Aditional configurations
 > __TODO:__ systemd services
