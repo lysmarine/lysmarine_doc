@@ -2,10 +2,8 @@
 
 
 ### 1) Download the latest image file
-   [lysmarineos.com/archives/V0.8.2-lysmarine.img.zip](http://lysmarineos.com/archives/V0.8.2-lysmarine.img.zip)
 
-   `.zip, .tag.gz, and .lzma` images are also available at [lysmarineos.com/archives/](http://lysmarineos.com/archives/)
-
+Download the latest files corresponding to your board from the [Download page](/doc/download.md)
 
 ### 2) Extract the image file from the zip archive
 Find the downloaded archive — by default, it should be in your Downloads folder.<br>
