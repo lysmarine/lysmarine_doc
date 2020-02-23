@@ -2,15 +2,75 @@
 # Lysmarine
 
 ## A stable and coherent operating system for DIY chart plotters.
+<div class="grayBG">
+
+<div class="row">
+  <div class="column">
+    <img src="img/2.png" onclick="galleryShow(this);">
+  </div>
+  <div class="column">
+    <img src="img/3.png" onclick="galleryShow(this);">
+  </div>
+  <div class="column">
+    <img src="img/4.png" onclick="galleryShow(this);">
+  </div>
+
+  <div class="column">
+    <img src="img/r1.png" onclick="galleryShow(this);">
+  </div>
+</div>  <div class="row">
+  <div class="column">
+    <img src="img/r2.png" onclick="galleryShow(this);">
+  </div>
+  <div class="column">
+    <img src="img/r3.png" onclick="galleryShow(this);">
+  </div>
+  <div class="column">
+    <img src="img/r4.png" onclick="galleryShow(this);">
+  </div>
+  
+  <div class="column">
+    <img src="img/r5.png" onclick="galleryShow(this);">
+  </div>
+  </div>  <div class="row">
+  <div class="column">
+    <img src="img/r6.png" onclick="galleryShow(this);">
+  </div>
+  <div class="column">
+    <img src="img/r7.png" onclick="galleryShow(this);">
+  </div>
+    <div class="column">
+    <img src="img/r8.png" onclick="galleryShow(this);">
+  </div>
+    <div class="column">
+    <img src="img/r9.png" onclick="galleryShow(this);">
+  </div>
+  </div>  <div class="row">
+    <div class="column">
+    <img src="img/r10.png" onclick="galleryShow(this);">
+  </div>
+</div>
 
 
-<img style="float: right;width:33%" src="img/56685673_864487050559490_2388214322967871488_n.png" >
-<img style="float: right;width:33%" src="img/56196650_864487037226158_2555303931060158464_n.png" >
-<img style="float: right;width:33%" src="img/55949750_864487103892818_7811739672480055296_n.png" >
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+
+
+</div>
 
 <div style="clear:both"></div>
-
-
+ <hr>
+ 
 # Feature
 
  * OpenCPN
