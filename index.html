@@ -15,7 +15,11 @@
 	<link rel="stylesheet" type="text/css" href="gallery.css">
 	<script src="gallery.js"></script> 
 	<link rel="stylesheet" href="theme-simple-dark.css">
-	
+
+	<script src="jquery-flipster/demo/jquery.min.js"></script>
+	<script src="jquery-flipster/dist/jquery.flipster.min.js"></script>
+	<link type="text/css"  rel="stylesheet" href="jquery-flipster/dist/jquery.flipster.css">
+
 	<style>
 	:root {
 		--theme-hue: 325;
@@ -27,17 +31,40 @@
 		--cover-background-color: inerith;
 		background-size: cover !important;
 	}
+	#footer {
+		background-color: #ffffff0a;
+	}
 
-	#footer{
+	#footer #contact{
+		margin-left: var(--sidebar-width);
+		padding-left: 10%;
+	}
+
+	#footer #licence{
 		float:right
 	}
+		#footer a {
+			border-bottom: var(--link-border-bottom);
+			color: var(--link-color);
+			-webkit-text-decoration: var(--link-text-decoration);
+			text-decoration: var(--link-text-decoration);
+			-webkit-text-decoration-color: var(--link-text-decoration-color);
+			text-decoration-color: var(--link-text-decoration-color);
+		}
 	</style>
 </head>
 
 <body>
 	<div id="app"></div>
-	<div id="footer">	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>&nbsp;&nbsp;&nbsp;</div>
-
+	<div id="footer">
+		<div id="contact" >
+		<h3>Contact</h3>
+		 <a href="https://www.facebook.com/groups/1072445939633174/">Get in touch with the community.</a><br>
+		 <a href="https://github.com/lysmarine/lysmarine_gen/issues">Bugs, Issues, requests</a><br>
+		 <a href="https://www.facebook.com/lysmarineOS">Facebook</a><br>
+		</div>
+		<a rel="licence" id="licence" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>&nbsp;&nbsp;&nbsp;</div>
+	</div>
   <script>
 		window.$docsify = {
 			name       : 'LysMarine',
@@ -47,19 +74,17 @@
 			auto2top   : true,
 			maxLevel   : 1,
 			subMaxLevel: 6,
+			executeScript: true,
 			themeable : {
-			},
 
-
+		},
 
 	};
 	</script>
-
 	<script src="docsify.min.js"></script>
 	<script src="docsify-themeable"></script>
 	<script src="search.js"></script>
 	<script src="docsify-pagination.min.js"></script>
-
 </body>
 
 </html>
