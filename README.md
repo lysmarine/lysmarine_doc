@@ -1,7 +1,5 @@
 
-# Lysmarine
-
-## A stable and coherent operating system for DIY chart plotters.
+## Lysmarine is a stable and coherent operating system with a nice interface for DIY chart plotters.
 
 <div id="coverflow">
   <ul class="flip-items">
@@ -52,10 +50,18 @@
  
  </script>
  
+ 
+### The Core principles that define Lysmarine
+  - Support most Popular SBC and Computers. 
+  - Based On Debian or it's SBC derivative. 
+  - Strong respect of the Linux FHS and philosophy.
+  - Strong use of systemD.
+  - Everything goes through SignalK.
+  - The UI/UX reflect commercial Chartplotter design.
+  - Fix and adapt software upstream as possible. So it can benefit the community not just lysmarine users.   
 
-# Get Starded
-&nbsp; &nbsp; &nbsp; &nbsp; [ Download and Install ](doc/INSTALL.md)
-
-&nbsp; &nbsp; &nbsp; &nbsp; [ Documentation ](doc/README.md)
+### Documentation and Tutorials 
+  - [ Install Lysmarine on your hardware ](doc/INSTALL.md)
+  - [ Complete Documentation ](doc/README.md)
 
 
