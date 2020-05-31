@@ -29,6 +29,8 @@
 &nbsp; &nbsp; &nbsp; &nbsp; [Documentation repository](https://github.com/lysmarine/lysmarine_doc)
 &nbsp; &nbsp; &nbsp; &nbsp; [(website deployment)](https://github.com/lysmarine/lysmarine_doc)
 
+&nbsp; &nbsp; &nbsp; &nbsp; [ Graphical guidelines ](doc/uiux_guidelines.md)
+
 &nbsp; &nbsp; &nbsp; &nbsp; [Facebook page](https://www.facebook.com/lysmarineOS)
 
 &nbsp; &nbsp; &nbsp; &nbsp; [Facebook user goup](https://www.facebook.com/groups/1072445939633174/)
