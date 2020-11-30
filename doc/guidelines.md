@@ -26,3 +26,9 @@ If you have found an issue or just something that don't feel right. Feel free to
 
 ## Community guidelines
  * TODO *  But the basic apply, Be excellent to each others.
+
+## code styling
+shellcheck
+
+https://github.com/mvdan/sh/releases/download/v3.2.0/shfmt_v3.2.0_linux_amd64
+shfmt -w build.sh build.sh
