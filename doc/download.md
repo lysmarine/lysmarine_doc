@@ -1,7 +1,6 @@
-<br>
-<br>
 
-<hr>
+# Download Lysmarine
+
 
 #### Stable release
 
@@ -12,6 +11,8 @@
 
 [LysMarine_night_build](https://cloudsmith.io/~lysmarineos/repos/dev/packages/#)			      
 
+NEXT: Consult the [instalation instructions](INSTALL.md) 			      
+ 
 <hr>
 
 [![Hosted By: Cloudsmith](https://img.shields.io/badge/OSS%20hosting%20by-cloudsmith-blue?logo=cloudsmith&style=for-the-badge)](https://cloudsmith.com)

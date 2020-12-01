@@ -3,4 +3,4 @@
 
 ## A stable and coherent operating system for DIY chart plotters.
 
-[ Download and Install ](doc/INSTALL.md) [ Documentation & Tutorials ](doc/README.md)
+[ Download and Install ](doc/download.md) [ Documentation & Tutorials ](doc/README.md)
