@@ -1,5 +1,6 @@
 Install website
 sudo npm install -g docsify
+sudo npm i docsify-cli -g
 sudo docsify serve 
 
 

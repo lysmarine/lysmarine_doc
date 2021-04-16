@@ -20,12 +20,9 @@ As their name says, you are strongly advised to change them,
  - Change user password with the command :  `passwd`
  - Change root password with the command :  `sudo passwd root`
  - Change VNC password with the command  :  `vncpasswd`
+ - SignalK by the admin dashboard
+ - Wifi hotspot via NetworkManager : `nm-connection-editor`
 
-Signalk don't have any accound made by default, so plz create one before someone malicious do it :
-`Go to Menu` > `System` > `SignalK`  Press Login button upper right and choose your username & password. 
+# Upload or Get charts
 
-Wifi access point, In the file `etc/create_ap.conf` look for the line `PASSPHRASE=changeme` and set your password. 
-
-### Aditional configurations
-> __TODO:__ systemd services
-
+__TO BE DOCUMENTED__

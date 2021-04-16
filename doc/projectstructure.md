@@ -1,42 +1,27 @@
 # Project structure
-Lysmarine is made of different repositories. Some are original content others are just forks.  
+
+# Resources 
 
 > [https://lysmarineos.com](https://lysmarineos.com) is the website of the project.
 
-> [https://lysmarineos.com](https://github.com/lysmarine) is the collaboration platform and issue tracker.
+> [lysmarine_doc](https://github.com/lysmarine/lysmarine_doc) Is the documentation and website repo.
 
-<br/>
+> [lysmarine_gen](https://gitlab.com/lysmarine/lysmarine_gen) This is where issues should be submitted.
 
-# Repositories
-## Lysmarine_doc
+> [Lysmarine Group](https://www.facebook.com/groups/1072445939633174/) This is where user ask for help and talk about the project. 
 
-> [https://github.com/lysmarine_doc](https://github.com/lysmarine_doc) Is the documentation and website repo.
+> [CircleCI ](https://app.circleci.com/pipelines/github/lysmarine/lysmarine_gen) Continuous Deployment tool that build lysmarine on every changes. 
 
-It contain the website and documentation files. 
+# Repository
 
-## lysmarine_gen
+> [lysmarine_gen](https://gitlab.com/lysmarine/lysmarine_gen) is the tool used to build lysmarine, most development happens on this repository.
 
- > [lysmarine-gen](https://gitlab.com/lysmarine/lysmarine_gen) is the tool used to build lysmarine. *(This is where the magic append)*
+> [lysmarine_doc](https://github.com/lysmarine/lysmarine_doc) is the documentation and website repo.
 
-This is also where issues should be submited. 
+> [service_manager](https://github.com/lysmarine/service_manager) is the repository of the service management tool for lysmarine.
 
+> [lysmarine-dashboard](https://github.com/lysmarine/lysmarine-dashboard) is the repository of the signalk plugin that act as the desktop background. 
 
-## Fbpanel
+> [Package](https://github.com/lysmarine/packages) is a repository that contain build procedure for projects that do not have repository or 
 
-> fbpanel is a lightweight desktop panel. It works with any NETWM compliant window manager.
-
-Sadly fbpanel is a dead project. Some people suLysmarine use a forked version of fbpanel.
-
- - The original project is available here:[fbpanel](https://aanatoly.github.io/fbpanel/).
-
- - The lysmarine fork can be found here : [fbpanel](https://gitlab.com/lysmarine/fbpanel)
-
-The fork add minors edits for the need of lysmarine.
-
-
-
-## SpeedSample
-
-> SpeedSample is a small tool for recording average speed over a minute.
-
-   - The original project is available here: [SpeedSample](https://github.com/fredericGuilbault/SpeedSample).
+> [SpeedSample](https://github.com/fredericGuilbault/SpeedSample) is a small tool for recording average speed over a minute.

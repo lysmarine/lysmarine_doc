@@ -25,4 +25,4 @@ Linux CLI (_be careful with this one_):
 ![](https://projects-static.raspberrypi.org/projects/raspberry-pi-setting-up/5bfb8f69592ea36d75df9d39b8abc186d7815cb6/en/images/pi-sd.png)
 
 <br><br>
-###   Next : &nbsp; &nbsp; [ First run, What to do ](doc/firstboot.md) 
+###   Next : &nbsp; &nbsp; [ First run, What to do ](doc/firstboot.md)

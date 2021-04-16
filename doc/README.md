@@ -1,16 +1,26 @@
-# Documentation
+# Getting started
 
-&nbsp; &nbsp; &nbsp; &nbsp; [ Hardware ](doc/hardware.md)
+&nbsp; &nbsp; &nbsp; &nbsp; [ Hardware Requirements](doc/hardware.md)
 
-&nbsp; &nbsp; &nbsp; &nbsp; [ Getting started ](doc/INSTALL.md)
+&nbsp; &nbsp; &nbsp; &nbsp; [ Installing ](doc/install.md)
 
 &nbsp; &nbsp; &nbsp; &nbsp; [ First Boot, what you should do. ](doc/firstboot.md)
 
-&nbsp; &nbsp; &nbsp; &nbsp; [ FAQ ](doc/faq.md)
+# Documentation
+
+### The project
+
+&nbsp; &nbsp; &nbsp; &nbsp; [Project structure](doc/projectstructure.md)
+
+### General concepts
 
 &nbsp; &nbsp; &nbsp; &nbsp; [ Data pipes ](doc/datapipes.md)
 
 &nbsp; &nbsp; &nbsp; &nbsp; [ Charts management ](doc/charts.md)
+
+&nbsp; &nbsp; &nbsp; &nbsp; [ Graphical guidelines ](doc/uiux_guidelines.md)
+
+### softwares 
 
 &nbsp; &nbsp; &nbsp; &nbsp; [ SSH ](doc/ssh.md)
 
@@ -18,18 +28,16 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp; [ VNC (remode display )](doc/vnc.md)
 
+### Tutorials
+
+&nbsp; &nbsp; &nbsp; &nbsp; Todo. Submit yours
 
 
-# Developers
-
-#### &nbsp; &nbsp; &nbsp; &nbsp; [Project structure](doc/projectstructure.md)
-
-&nbsp; &nbsp; &nbsp; &nbsp; [Build scripts repository](https://github.com/lysmarine/lysmarine_gen/blob/master/README.md)
+## Ressources 
 
 &nbsp; &nbsp; &nbsp; &nbsp; [Documentation repository](https://github.com/lysmarine/lysmarine_doc)
-&nbsp; &nbsp; &nbsp; &nbsp; [(website deployment)](https://github.com/lysmarine/lysmarine_doc)
 
-&nbsp; &nbsp; &nbsp; &nbsp; [ Graphical guidelines ](doc/uiux_guidelines.md)
+&nbsp; &nbsp; &nbsp; &nbsp; [(website deployment)](https://github.com/lysmarine/lysmarine_doc)
 
 &nbsp; &nbsp; &nbsp; &nbsp; [Facebook page](https://www.facebook.com/lysmarineOS)
 
@@ -41,5 +49,3 @@
 # Changelog
 
 &nbsp; &nbsp; &nbsp; &nbsp; [ Version changelog ](doc/changelog.md)
-
-
